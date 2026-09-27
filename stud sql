@@ -1,0 +1,33 @@
+CREATE DATABASE student_management;
+
+USE student_management;
+
+CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    course VARCHAR(50),
+    marks INT,
+    grade CHAR(1)
+);
+
+INSERT INTO students VALUES
+(1, 'Anu', 20, 'BSc Computer Science', 85, 'A'),
+(2, 'Ravi', 21, 'BCA', 72, 'B'),
+(3, 'Priya', 20, 'BSc Mathematics', 91, 'A'),
+(4, 'Kiran', 22, 'BCom', 65, 'C'),
+(5, 'Sneha', 21, 'BCA', 78, 'B');
+
+SELECT * FROM students;
+
+SELECT name, course, marks
+FROM students
+WHERE marks >= 75;
+
+SELECT course, AVG(marks) AS average_marks
+FROM students
+GROUP BY course;
+
+SELECT *
+FROM students
+ORDER BY marks DESC;
