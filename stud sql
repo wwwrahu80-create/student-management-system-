@@ -12,10 +12,10 @@ CREATE TABLE students (
 );
 
 INSERT INTO students VALUES
-(1, 'Anu', 20, 'BSc Computer Science', 85, 'A'),
-(2, 'Ravi', 21, 'BCA', 72, 'B'),
-(3, 'Priya', 20, 'BSc Mathematics', 91, 'A'),
-(4, 'Kiran', 22, 'BCom', 65, 'C'),
+(1, 'AR', 20, 'BSc Computer Science', 85, 'A'),
+(2, 'Manu', 21, 'BCA', 72, 'B'),
+(3, 'Jessie', 20, 'BSc Mathematics', 91, 'A'),
+(4, 'Messie', 22, 'BCom', 65, 'C'),
 (5, 'Sneha', 21, 'BCA', 78, 'B');
 
 SELECT * FROM students;
