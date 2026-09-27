@@ -1,4 +1,4 @@
-CREATE DATABASE student_management;
+ CREATE DATABASE student_management;
 
 USE student_management;
 
