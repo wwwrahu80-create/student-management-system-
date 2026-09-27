@@ -30,4 +30,4 @@ GROUP BY course;
 
 SELECT *
 FROM students
-ORDER BY marks DESC;
+ORDER BY marks DESC; 
