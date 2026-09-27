@@ -47,4 +47,4 @@ WHERE Course = 'BSc Computer Science';
 
 -- Display students from highest to lowest marks
 SELECT * FROM Students
-ORDER BY Marks DESC;
+ORDER BY Marks DESC; 
